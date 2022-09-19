@@ -9,6 +9,8 @@ body {
    padding: 0;
 }
 
+/* ---------header---------- */
+
 .header {
    background-color: white;
    height: 100px;
@@ -56,13 +58,15 @@ body {
    transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
+/* ---------section main---------- */
+
 .main {
-   width: 1300px;
+   width: auto;
    height: 700px;
 }
 
 .container_main {
-   width: 1300px;
+   width: 1250px;
    height: 150px;
 }
 
@@ -94,7 +98,7 @@ body {
    color: #070707;
 }
 
-.decription_text {
+.main_text {
    top: 40px;
    left: 650px;
    font-size: 18px;
@@ -104,7 +108,7 @@ body {
 
 }
 
-.description_language {
+.main_language {
    font-family: 'Gilroy';
    font-size: 16px;
    line-height: 20px;
@@ -113,31 +117,32 @@ body {
    position: inherit;
 }
 
-.description_language span {
+.main_language span {
    color: #000000;
 }
 
+/* ---------section about-me---------- */
+
 .about-me {
-   background-image: url(./images/Rectangle.png);
-   width: 1300px;
-   height: 500px;
+   display: flex;
+    justify-content: center;
+    background-color: #f6f6f6;
 
 }
 
 .container_about-me {
-   width: 1300px;
+   width: 1250px;
    height: 500px;
 }
 
 .info_about-me {
    font-family: 'Gilroy';
    font-size: 34px;
-   line-height: 200px;
+   line-height: 170px;
    text-align: center;
    color: #070707;
-
-   margin-top: 100px;
    margin-bottom: 0px;
+
 }
 
 .about-me_text {
@@ -146,13 +151,15 @@ body {
    left: 50%;
 }
 
+/* ---------section skills---------- */
+
 .skills {
-   width: 1300px;
+   width: 1250px;
    height: 500px;
 }
 
 .container_skills {
-   width: 1300px;
+   width: 1250px;
    height: 500px;
 }
 
@@ -178,41 +185,53 @@ body {
    height: 100px;
    margin-top: 50px;
    text-align: center;
-   margin-left: 200px;
-   margin-right: 200px;
+   text-decoration: none;
 
    display: flex;
    justify-content: space-around;
 }
 
-.programs_text {
-   width: 908px;
+.skills__program-title {
+
    font-family: "Gilroy";
    font-size: 14px;
    line-height: 17px;
    text-align: center;
 
-   margin-left: 200px;
-   margin-right: 205px;
-
    color: #828282;
-   display: flex;
-   justify-content: space-around;
 }
 
-.programs_stars {
-   width: 930px;
-   margin-left: 200px;
-   margin-right: 200px;
-
-   display: flex;
-   justify-content: space-around;
+.stars{
+	width: 265px;
+	margin: 0 auto;
 }
+
+.stars span {
+	padding: 0;
+	font-size: 32px;
+	margin: 0 3px;
+	line-height: 1;
+	color: #E5E5E5;
+	text-shadow: 1px 1px #bbb;
+
+}
+
+.stars > span:before {
+	content: '★';
+}
+
+.stars > span.active {
+	color: #070707;
+	text-shadow: 1px 1px rgb(0, 0, 0);
+
+}
+
+/* ---------section portfolio---------- */
 
 .container_portfolio {
-   background-image: url(./images/bg-2.png);
-   width: 1300px;
-   height: 2250px;
+   display: flex;
+   justify-content: center;
+   background-color: #f6f6f6;
 }
 
 .info_portfolio {
@@ -227,7 +246,6 @@ body {
 .img_portfolio {
    margin-top: 50px;
    margin-bottom: 50px;
-   margin-left: 150px;
    text-align: center;
 
 }
@@ -239,8 +257,14 @@ body {
    text-align: center;
 }
 
+.portfolio_link:last-child{
+   margin-bottom: 50px;
+}
+
+/* ---------section contacts---------- */
+
 .container_contacts {
-   width: 1300px;
+   width: 1250px;
    height: 500px;
 }
 
@@ -263,7 +287,7 @@ body {
 }
 
 .btn_wrapper {
-   width: 1300px;
+   width: 1250px;
    height: 150px;
    display: flex;
    justify-content: center;
@@ -290,7 +314,7 @@ body {
 
 .contacts_social {
    text-align: center;
-   width: 1300px;
+   width: 1250px;
    height: 70px;
    display: flex;
    justify-content: center;
