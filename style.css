@@ -1,0 +1,346 @@
+@font-face {
+   font-family: "Gilroy";
+   src: url(./fonts/Gilroy/Gilroy-Light.otf);
+}
+
+body {
+   font-family: 'Gilroy';
+   margin: 0;
+   padding: 0;
+}
+
+/* ---------header---------- */
+
+.header {
+   background-color: white;
+   height: 100px;
+   padding: 0 88px 0 105px;
+}
+
+.header_wrapper {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 100px;
+}
+
+.nav_link,
+.nav_link_last {
+   color: #828282;
+   text-decoration: none;
+   font-size: 18px;
+   line-height: 22px;
+   font-weight: 700;
+   margin-right: 170px;
+}
+
+.nav_link:last-child {
+   margin-right: 0;
+}
+
+.nav_link:hover {
+   color: #070707;
+}
+
+.nav_link_home {
+   color: #070707;
+   text-decoration: none;
+   font-size: 18px;
+   line-height: 22px;
+   font-weight: 700;
+   margin-right: 140px;
+}
+
+.vector {
+   position: absolute;
+   width: 1010px;
+   height: 0px;
+   margin-bottom: -80px;
+
+   border: 1px solid #828282;
+   transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+/* ---------section main---------- */
+
+.main {
+   width: auto;
+   height: 700px;
+}
+
+.container_main {
+   width: 1250px;
+   height: 150px;
+}
+
+.main_foto {
+   background-repeat: no-repeat;
+   width: 940px;
+   height: 500px;
+   background-image: url(./images/foto.jpg);
+   position: relative;
+   left: 250px;
+   text-align: center;
+}
+
+.main_description {
+   margin-left: 90px;
+   margin-top: 40px;
+   width: 1100px;
+
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+.main_description h1 {
+   top: 40px;
+   left: 105px;
+   max-width: 125px;
+   color: #070707;
+}
+
+.main_text {
+   top: 40px;
+   left: 650px;
+   font-size: 18px;
+   line-height: 22px;
+   color: #070707;
+   margin-right: 30px;
+
+}
+
+.main_language {
+   text-decoration: none;
+   font-family: 'Gilroy';
+   font-size: 16px;
+   line-height: 20px;
+   color: #828282;
+   transform: rotate(-90deg);
+   position: inherit;
+}
+
+.main_language .ru:hover {
+   color: #070707;
+}
+
+.main_language .eng:hover {
+   color: #070707;
+}
+
+.main_language .separator {
+   color: #000000;
+}
+
+/* ---------section about-me---------- */
+
+.about-me {
+   display: flex;
+   justify-content: center;
+   background-color: #f6f6f6;
+
+}
+
+.container_about-me {
+   width: 1250px;
+   height: 500px;
+}
+
+.info_about-me {
+   font-family: 'Gilroy';
+   font-size: 34px;
+   line-height: 170px;
+   text-align: center;
+   color: #070707;
+   margin-bottom: 0px;
+
+}
+
+.about-me_text {
+   text-align: center;
+   top: 50%;
+   left: 50%;
+}
+
+/* ---------section skills---------- */
+
+.skills {
+   width: 1250px;
+   height: 500px;
+}
+
+.container_skills {
+   width: 1250px;
+   height: 500px;
+}
+
+
+.skills_text {
+   font-family: 'Gilroy';
+   font-size: 34px;
+   line-height: 100px;
+   text-align: center;
+   color: #070707;
+
+   margin-top: 100px;
+   margin-bottom: 0px;
+}
+
+.skills_description {
+   text-align: center;
+   top: 50%;
+   left: 50%;
+}
+
+.skills_programs {
+   height: 100px;
+   margin-top: 50px;
+   text-align: center;
+   text-decoration: none;
+
+   display: flex;
+   justify-content: space-around;
+}
+
+.skills__program-title {
+
+   font-family: "Gilroy";
+   font-size: 14px;
+   line-height: 17px;
+   text-align: center;
+
+   color: #828282;
+}
+
+.stars {
+   width: 265px;
+   margin: 0 auto;
+}
+
+.stars span {
+   padding: 0;
+   font-size: 32px;
+   margin: 0 3px;
+   line-height: 1;
+   color: #E5E5E5;
+   text-shadow: 1px 1px #bbb;
+
+}
+
+.stars>span:before {
+   content: '★';
+}
+
+.stars>span.active {
+   color: #070707;
+   text-shadow: 1px 1px rgb(0, 0, 0);
+
+}
+
+/* ---------section portfolio---------- */
+
+.container_portfolio {
+   display: flex;
+   justify-content: center;
+   background-color: #f6f6f6;
+}
+
+.info_portfolio {
+   font-family: 'Gilroy';
+   font-size: 34px;
+   text-align: center;
+   color: #070707;
+   margin: 0px;
+   line-height: 200px;
+}
+
+.img_portfolio {
+   margin-top: 50px;
+   margin-bottom: 50px;
+   text-align: center;
+
+}
+
+.portfolio_link {
+   display: block;
+   color: #070707;
+   text-decoration: underline;
+   text-align: center;
+}
+
+.portfolio_link:last-child {
+   margin-bottom: 50px;
+}
+
+/* ---------section contacts---------- */
+
+.container_contacts {
+   width: 1250px;
+   height: 500px;
+}
+
+.info_contacts {
+   font-family: 'Gilroy';
+   font-size: 34px;
+   text-align: center;
+   color: #070707;
+   margin: 0px;
+   line-height: 200px;
+}
+
+.text_contacts {
+   font-family: 'Gilroy';
+   font-size: 18px;
+   line-height: 22px;
+   text-align: center;
+
+   color: #070707;
+}
+
+.btn_wrapper {
+   width: 1250px;
+   height: 150px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.contacts_btn {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 180px;
+   height: 45px;
+   border-radius: 100px;
+   text-decoration: none;
+   background: #070707;
+}
+
+.contacts_btn span {
+   font-size: 18px;
+   line-height: 22px;
+   color: #FFFFFF;
+   text-align: center;
+}
+
+.contacts_social {
+   text-align: center;
+   width: 1250px;
+   height: 70px;
+   display: flex;
+   justify-content: center;
+}
+
+.contacts_link {
+   margin-left: 20px;
+   margin-right: 20px;
+}
+
+.contacts_ps {
+   font-size: 14px;
+   line-height: 17px;
+   text-align: center;
+
+   color: #828282;
+}
