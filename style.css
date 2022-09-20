@@ -34,10 +34,13 @@ body {
    margin-right: 170px;
 }
 
-.nav_link_last {
+.nav_link:last-child {
    margin-right: 0;
 }
 
+.nav_link:hover {
+   color: #070707;
+}
 
 .nav_link_home {
    color: #070707;
@@ -109,6 +112,7 @@ body {
 }
 
 .main_language {
+   text-decoration: none;
    font-family: 'Gilroy';
    font-size: 16px;
    line-height: 20px;
@@ -117,7 +121,15 @@ body {
    position: inherit;
 }
 
-.main_language span {
+.main_language .ru:hover {
+   color: #070707;
+}
+
+.main_language .eng:hover {
+   color: #070707;
+}
+
+.main_language .separator {
    color: #000000;
 }
 
@@ -125,8 +137,8 @@ body {
 
 .about-me {
    display: flex;
-    justify-content: center;
-    background-color: #f6f6f6;
+   justify-content: center;
+   background-color: #f6f6f6;
 
 }
 
@@ -201,28 +213,28 @@ body {
    color: #828282;
 }
 
-.stars{
-	width: 265px;
-	margin: 0 auto;
+.stars {
+   width: 265px;
+   margin: 0 auto;
 }
 
 .stars span {
-	padding: 0;
-	font-size: 32px;
-	margin: 0 3px;
-	line-height: 1;
-	color: #E5E5E5;
-	text-shadow: 1px 1px #bbb;
+   padding: 0;
+   font-size: 32px;
+   margin: 0 3px;
+   line-height: 1;
+   color: #E5E5E5;
+   text-shadow: 1px 1px #bbb;
 
 }
 
-.stars > span:before {
-	content: '★';
+.stars>span:before {
+   content: '★';
 }
 
-.stars > span.active {
-	color: #070707;
-	text-shadow: 1px 1px rgb(0, 0, 0);
+.stars>span.active {
+   color: #070707;
+   text-shadow: 1px 1px rgb(0, 0, 0);
 
 }
 
@@ -257,7 +269,7 @@ body {
    text-align: center;
 }
 
-.portfolio_link:last-child{
+.portfolio_link:last-child {
    margin-bottom: 50px;
 }
 
