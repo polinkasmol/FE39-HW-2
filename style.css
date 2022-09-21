@@ -15,17 +15,21 @@ body {
    background-color: white;
    height: 100px;
    padding: 0 88px 0 105px;
+   margin: 0 auto;
 }
 
 .header_wrapper {
+   margin: 0 auto;
+   height: 100px;
+}
+.header_nav{
    display: flex;
    align-items: center;
    justify-content: space-between;
-   height: 100px;
 }
 
-.nav_link,
-.nav_link_last {
+.nav_link {
+
    color: #828282;
    text-decoration: none;
    font-size: 18px;
@@ -68,9 +72,9 @@ body {
    height: 700px;
 }
 
-.container_main {
-   width: 1250px;
-   height: 150px;
+.container{
+   width: 100%;
+   margin: 0 auto;
 }
 
 .main_foto {
@@ -142,11 +146,6 @@ body {
 
 }
 
-.container_about-me {
-   width: 1250px;
-   height: 500px;
-}
-
 .info_about-me {
    font-family: 'Gilroy';
    font-size: 34px;
@@ -169,12 +168,6 @@ body {
    width: 1250px;
    height: 500px;
 }
-
-.container_skills {
-   width: 1250px;
-   height: 500px;
-}
-
 
 .skills_text {
    font-family: 'Gilroy';
@@ -240,12 +233,6 @@ body {
 
 /* ---------section portfolio---------- */
 
-.container_portfolio {
-   display: flex;
-   justify-content: center;
-   background-color: #f6f6f6;
-}
-
 .info_portfolio {
    font-family: 'Gilroy';
    font-size: 34px;
@@ -275,10 +262,6 @@ body {
 
 /* ---------section contacts---------- */
 
-.container_contacts {
-   width: 1250px;
-   height: 500px;
-}
 
 .info_contacts {
    font-family: 'Gilroy';
