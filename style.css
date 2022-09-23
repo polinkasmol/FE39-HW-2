@@ -84,10 +84,11 @@ body {
    margin: 0 auto;
    background-repeat: no-repeat;
    width: 100%;
-   height: 100%;
+   height: 80%;
    object-fit: cover;
    position: relative;
    overflow: hidden;
+   text-align: center;
 }
 
 .main_description {
@@ -246,12 +247,15 @@ body {
    line-height: 50px;
 }
 
+.img_portf{
+   text-align: center;
+}
+
 .img_portfolio {
    margin-top: 50px;
    margin-bottom: 50px;
-   text-align: center;
    object-fit: cover;
-   width: 100%;
+   width: 936px;;
 }
 
 .portfolio_link {
