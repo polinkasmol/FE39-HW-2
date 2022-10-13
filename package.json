@@ -1,0 +1,26 @@
+{
+  "name": "fe39-hw-2",
+  "version": "1.0.0",
+  "source": "index.html",
+  "description": "FE39-HW-2",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polinkasmol/FE39-HW-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/polinkasmol/FE39-HW-2/issues"
+  },
+  "homepage": "https://github.com/polinkasmol/FE39-HW-2#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0",
+    "sass": "^1.55.0"
+  }
+}
